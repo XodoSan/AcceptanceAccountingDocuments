@@ -3,7 +3,7 @@
 <head>
     <title>Download PDF</title>
 </head>
-<body>
+<body style="background-image: url({{ url_for('static', filename='RZDImage.jpg') }}); background-size: cover; background-position: center center; background-attachment: fixed;">
     <h1>Download PDF</h1>
     <form action="/upload" method="post" enctype="multipart/form-data">
         <input type="file" name="pdf_file">
