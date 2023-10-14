@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RZD", "RZD\RZD.pyproj", "{8C7DF8A5-053B-4B45-9066-AA02FF759082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C7DF8A5-053B-4B45-9066-AA02FF759082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7DF8A5-053B-4B45-9066-AA02FF759082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7DF8A5-053B-4B45-9066-AA02FF759082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7DF8A5-053B-4B45-9066-AA02FF759082}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9360262-7637-427D-BE3F-C3A146FA2225}
+	EndGlobalSection
+EndGlobal
