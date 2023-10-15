@@ -1,7 +1,3 @@
-"""
-This script runs the RZD application using a development server.
-"""
-
 from os import environ
 from RZD import app
 
