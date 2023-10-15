@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Download PDF</title>
+    <title></title>
+    <style>
+    body {
+
+        font-family: Arial, sans-serif;        
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        }
+
+        h1 {
+            margin-top: 100px;
+        }
+
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .stripes {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 50px;
+        }
+
+        .red-stripe {
+            background-color: #d30000;
+        }
+
+        .white-stripe {
+            background-color: #fff;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #0078d4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
-<body style="background-image: url({{ url_for('static', filename='RZDImage.jpg') }}); background-size: cover; background-position: center center; background-attachment: fixed;">
-    <h1>Download PDF</h1>
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="pdf_file">
-        <input type="submit" value="Download">
-    </form>
+<body style="background-image: url({{url_for('static', filename='RZDImage.jpg')}});">
+    <div class="stripes red-stripe"></div>
+    <div class="stripes white-stripe"></div>
+    <h1></h1>
+    <div class="container">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="pdf_file">
+            <button type="submit">Download</button>
+        </form>
+    </div>
 </body>
 </html>
-
